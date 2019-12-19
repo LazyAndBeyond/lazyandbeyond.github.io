@@ -50,11 +50,22 @@ nav ul li a {
     font-size: 2em;
 }
 
-.header {
-    height: 56%;
-    display: block;
-    text-align: center;
-    margin: 120px auto;
+@media (min-width:992px) {
+    .header {
+        height: 56%;
+        display: block;
+        text-align: center;
+        margin: 120px auto;
+    }
+}
+
+@media (min-width:1920px) {
+    .header {
+        height: 65%;
+        display: block;
+        text-align: center;
+        margin: 120px auto;
+    }
 }
 
 h1 {
