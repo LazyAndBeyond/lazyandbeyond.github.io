@@ -50,7 +50,7 @@ nav ul li a {
     font-size: 2em;
 }
 
-@media (min-width:992px) {
+@media only screen and (min-width:992px) {
     .header {
         height: 56%;
         display: block;
@@ -59,7 +59,7 @@ nav ul li a {
     }
 }
 
-@media (min-width:1920px) {
+@media only screen and (min-width:1920px) {
     .header {
         height: 65%;
         display: block;
